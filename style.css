@@ -1,0 +1,39 @@
+/* estilos personalizados */
+body {
+    background-color: #e8f5e9;
+}
+
+.course-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+.card-header-img {
+    height: 120px;
+    background-color: #c8e6c9; /* verde claro de respaldo */
+    background-image: url('header.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* sustituye la URL por la imagen real que quieras usar */
+}
+
+.badge-custom {
+    background-color: #2e7d32; /* verde oscuro */
+    color: #fff;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
+}
+
+.btn-custom {
+    border-width: 2px;
+    padding: 0.5rem 1rem;
+}
+
+.btn-custom:hover {
+    background-color: #388e3c; /* verde hover */
+    color: #fff;
+}
